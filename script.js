@@ -13,8 +13,13 @@ function adicionarTabela() {
     const nota1 = parseFloat(document.getElementById('1nota').value);
     const nota2 = parseFloat(document.getElementById('2nota').value);
 
-    if (!nome || !matricula || !nota1 || !nota2) {
+    if (!nome || !matricula) {
         alert('Preencha todos os campos antes de enviar');
+        return;
+    }
+
+    if (nota1 < 0 || nota1 > 10 || nota2 < 0 || nota2 > 10) {
+        alert('As notas devem estar entre 0 e 10');
         return;
     }
 
