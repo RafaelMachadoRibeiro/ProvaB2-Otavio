@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
+}
+
+.container {
+    border: 2px solid #1b235c;
+    border-radius: 15px;
+    text-align: center;
+    padding: 2ch;
+    width: fit-content;
+}
+
+form {
+    padding: 20px;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    font-size: large;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 2px solid #1b235c;
+    padding: 10px;
+}
+
+button {
+    border-radius: 8px;
+    padding: 1ch;
+    background-color: #1b235c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}

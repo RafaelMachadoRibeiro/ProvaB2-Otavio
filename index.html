@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova B2 - Otávio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <main>
+            <h1>1ª Prova Bimestral - 2º Bimestre</h1>
+            <p><strong>Aluno:</strong>Rafael Machado Ribeiro</p>
+            <p><strong>Turma:</strong>CC1MD</p>
+            <p><strong>Período:</strong>1º Módulo</p>
+            <p><strong>Data:</strong>06/06/2024</p>
+        </main>
+
+        <form>
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome"><br>
+            <label for="matricula">Matrícula:</label><br>
+            <input type="number" id="matricula" name="matricula"><br>
+            <label for="1nota">1ª nota:</label><br>
+            <input type="number" id="1nota" name="1nota" step="any"><br>
+            <label for="2nota">2ª nota:</label><br>
+            <input type="number" id="2nota" name="2nota" step="any"><br>
+            <button type="submit">Enviar</button><br>
+        </form>
+
+        <table id="saida">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Matrícula</th>
+                    <th>1ª Nota</th>
+                    <th>2ª Nota</th>
+                    <th>Média</th>
+                    <th>Situação</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        <button id="limpar">Limpar</button>
+    </div>
+</body>
+
+</html>
